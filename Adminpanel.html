@@ -1,0 +1,59 @@
+<style>
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+/* Links inside the dropdown */
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #ddd;}
+
+.desc {
+    padding: 15px;
+    text-align: center;
+</style>
+<head>
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+</head>
+<table width="100%" height="100%" bgcolor="white"  cellspacing="0" cellpadding="0" border="0">
+<Td width="20%" height="8%" align="center"><b>Welcome! Gauri</b></td>
+<Td align="left" bgcolor="#1B53F1" ><i class="fa fa-bars"></i>
+
+<table border="0" width="70%" height="8%" align="right" bgcolor="#1B53F1">
+<td align="right" valign="top" width="40%">&nbsp;&nbsp;&nbsp;
+<div class="dropdown"><img src="pic.jpg" width="35" height="35" style="border-radius:65px; border:1px solid #2A3F54";>
+<div class="dropdown-content">
+	<a href="#">My Profile</a>
+    <a href="out.php"><i class="fa fa-fw fa-sign-out"></i>Logout</a>
+    <a href="#">Setting</a>
+  </div>
+</div>
+&nbsp;&nbsp;&nbsp;</td>
+</table></td></TR>
+
+<Td align="center" valign="top" height="10%"><img src="pic.jpg" width="90" height="90" style="border-radius:55px; border:1px solid #2A3F54;"> </td><Td rowspan="6"></td></TR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<Td height="9%" >&nbsp;&nbsp;&nbsp;&nbsp;<i class="fas fa-tachometer-alt"></i>&nbsp;&nbsp;Dashboard</td></TR>
+<Td height="9%" >&nbsp;&nbsp;&nbsp;&nbsp;<i class="fas fa-graduation-cap"></i>&nbsp;&nbsp;Admission</td></TR>
+<Td height="9%" >&nbsp;&nbsp;&nbsp;&nbsp;<i class="fas fa-file"></i>&nbsp;&nbsp;Student Record</td></TR>
+
+</table>
